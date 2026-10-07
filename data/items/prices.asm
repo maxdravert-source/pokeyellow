@@ -1,15 +1,15 @@
 ItemPrices::
 	table_width 3
 	bcd3 0     ; MASTER_BALL
-	bcd3 1200  ; ULTRA_BALL
-	bcd3 600   ; GREAT_BALL
-	bcd3 200   ; POKE_BALL
+	bcd3 120  ; ULTRA_BALL
+	bcd3 60   ; GREAT_BALL
+	bcd3 20   ; POKE_BALL
 	bcd3 0     ; TOWN_MAP
 	bcd3 0     ; BICYCLE
 	bcd3 0     ; SURFBOARD
-	bcd3 1000  ; SAFARI_BALL
+	bcd3 1  ; SAFARI_BALL
 	bcd3 0     ; POKEDEX
-	bcd3 0     ; MOON_STONE
+	bcd3 2100  ; MOON_STONE
 	bcd3 100   ; ANTIDOTE
 	bcd3 250   ; BURN_HEAL
 	bcd3 250   ; ICE_HEAL
