@@ -19,7 +19,7 @@ ItemPrices::
 	bcd3 2500  ; MAX_POTION
 	bcd3 1500  ; HYPER_POTION
 	bcd3 700   ; SUPER_POTION
-	bcd3 300   ; POTION
+	bcd3 1   ; POTION
 	bcd3 0     ; BOULDERBADGE
 	bcd3 0     ; CASCADEBADGE
 	bcd3 0     ; THUNDERBADGE
@@ -39,7 +39,7 @@ ItemPrices::
 	bcd3 9800  ; IRON
 	bcd3 9800  ; CARBOS
 	bcd3 9800  ; CALCIUM
-	bcd3 4800  ; RARE_CANDY
+	bcd3 480  ; RARE_CANDY
 	bcd3 0     ; DOME_FOSSIL
 	bcd3 0     ; HELIX_FOSSIL
 	bcd3 0     ; SECRET_KEY
