@@ -66,6 +66,15 @@ GainExperience:
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
+; --- MOD: Super Bonbon dans le sac = XP x10 ---
+        ld b, RARE_CANDY
+        call IsItemInBag
+        jr z, .noCandyBoost   ; pas de bonbon -> XP normale
+        ld a, 10
+        ldh [hMultiplier], a
+        call Multiply          ; quotient (deja dans hMultiplicand) x 10
+.noCandyBoost
+; --- fin du MOD ---
 	ld hl, MON_OTID - (MON_DVS - 1)
 	add hl, de
 	ld b, [hl] ; wPartyMon*OTID
